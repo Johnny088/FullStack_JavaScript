@@ -1,0 +1,42 @@
+.Container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.ul_nav {
+  text-decoration: none;
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  position: fixed;
+  /* justify-content: center; */
+}
+
+body {
+  background-color: rgb(117, 128, 148);
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+span {
+  background-color: rgb(207, 140, 140);
+}
+.photos {
+  list-style: none;
+}
+.form_sub {
+  display: flex;
+  flex-direction: column;
+}
+#submit {
+  width: 80px;
+}
+.ul_anchors {
+  display: flex;
+  justify-content: left;
+  flex-direction: column; /* <== why if I comment this line my list 
+  is on the left, if I leave it, my content is in the middle?
+  */
+}
