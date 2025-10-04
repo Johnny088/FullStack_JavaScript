@@ -1,27 +1,29 @@
-.Container {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-}
+/* nav list */
 .ul_nav {
   text-decoration: none;
   display: flex;
   gap: 30px;
   list-style: none;
-  position: fixed;
-  /* justify-content: center; */
+  /* position: fixed; */
+}
+.nav_list {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(42, 20, 139);
+}
+
+.Container {
+  width: 80%;
+  margin: auto;
+  text-align: center;
 }
 
 body {
   background-color: rgb(117, 128, 148);
 }
-a {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  text-decoration: none;
-}
 span {
-  background-color: rgb(207, 140, 140);
+  background-color: rgb(106, 90, 122);
 }
 .photos {
   list-style: none;
@@ -30,8 +32,9 @@ span {
   display: flex;
   flex-direction: column;
 }
-#submit {
+.submit {
   width: 80px;
+  /*  Why my button doesn't want to place to center??? */
 }
 .ul_anchors {
   display: flex;
@@ -39,4 +42,11 @@ span {
   flex-direction: column; /* <== why if I comment this line my list 
   is on the left, if I leave it, my content is in the middle?
   */
+  font-size: 20px;
 }
+
+/* .radio {
+  width: 100px;
+  text-align: center;
+} */
+/* Why can't I set it with paramitrized width in the middle? */
