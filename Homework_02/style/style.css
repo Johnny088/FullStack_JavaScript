@@ -25,9 +25,6 @@ body {
 span {
   background-color: rgb(106, 90, 122);
 }
-.photos {
-  list-style: none;
-}
 .form_sub {
   display: flex;
   flex-direction: column;
@@ -48,5 +45,15 @@ span {
 /* .radio {
   width: 100px;
   text-align: center;
-} */
+  } */
 /* Why can't I set it with paramitrized width in the middle? */
+
+.photos {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.image_size {
+  width: 400px;
+  min-height: 300px; /* why last picture doesn't take the size? */
+}
