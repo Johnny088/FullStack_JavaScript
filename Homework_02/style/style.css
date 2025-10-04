@@ -55,5 +55,5 @@ span {
 }
 .image_size {
   width: 400px;
-  min-height: 300px; /* why last picture doesn't take the size? */
+  height: 300px;
 }
