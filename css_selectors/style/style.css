@@ -1,0 +1,52 @@
+body {
+  background-color: bisque; /*1*/
+  font-size: 20px;
+}
+div > p {
+  /*2*/
+  color: blue;
+}
+#test {
+  /*100*/
+  font-weight: 600;
+  background-color: burlywood;
+}
+div > p:nth-child(2) {
+  /*12*/
+  color: rgb(40, 99, 151);
+}
+section p {
+  /*2*/
+  color: brown;
+}
+ul + li {
+  /*2*/
+  background-color: black; /* Doesn't work*/
+  color: blue;
+}
+ul > li:last-child {
+  /*12*/
+  background-color: aqua;
+}
+ul > li:nth-child(2) {
+  /*12*/
+  background-color: rgb(230, 136, 14);
+}
+h1 + p {
+  /*2*/
+  color: rgb(161, 21, 173);
+}
+span ~ p {
+  /*2*/
+  color: red;
+}
+h1::after {
+  /*2*/
+  content: '★';
+  color: green;
+}
+h1::before {
+  /*2*/
+  content: '►';
+  color: orange;
+}
