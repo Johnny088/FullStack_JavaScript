@@ -7,45 +7,38 @@
     <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
-    <div>
+    <div class="div_test">
       <p>
-        the tag <strong>p</strong> is inside a <strong>div</strong> container
+        Test 1 <span>tag "p" = weight 1<sup>*</sup></span>
       </p>
       <p>
-        the second <strong>p</strong> in the same <strong>div</strong> container
+        Test 2 <span>div > p:nth-child = weight 12<sup>*</sup></span>
       </p>
-    </div>
-    <section>
-      <p>the tag <strong>p</strong> is inside a <strong>section</strong></p>
-    </section>
-    <p>just the <strong>p</strong> in the body</p>
-    <div>
-      <ul>
-        <li>test1</li>
-        <li>test2</li>
-        <li>test3</li>
-        <li>test4</li>
-        <li>test5</li>
-        <li>test6</li>
-        <li>test7</li>
-        <li>test8</li>
-        <li>test9</li>
-        <li>test10</li>
-      </ul>
-    </div>
-    <div>
-      <h1>Заголовок</h1>
-      <p>Цей абзац буде стилізовано</p>
-      <p>Цей абзац не буде стилізовано</p>
-      <p id="test">some text for testing</p>
-    </div>
-    <h2>Next example</h2>
-
-    <div>
-      <p>Абзац 1</p>
-      <span>Елемент span</span>
-      <p>Абзац 2</p>
-      <p>Абзац 3</p>
+      <p style="color: blueviolet">
+        Test 3 color was changed by property "!important" in css
+        <span>div > p:nth-child + !mportant = weight 10012<sup>*</sup></span>
+      </p>
+      <p>
+        Test 4 <span>p:nth-child(4) = weight = 11<sup>*</sup></span>
+      </p>
+      <p>
+        Test 5 <span>p:nth-child(4) + p weight = 12<sup>*</sup></span>
+      </p>
+      <p>
+        Test 6 <span>div > p:nth-child(5) + p = weight 13<sup>*</sup></span>
+      </p>
+      <p style="color: red; font-size: 30px">
+        Test 7 <span>inline attribute = weight 1000<sup>*</sup></span>
+      </p>
+      <p id="test7">
+        Test 8 <span>id = weight 100<sup>*</sup> </span>
+      </p>
+      <p class="test8">
+        Test 9 <span>just class = weight 1<sup>*</sup></span>
+      </p>
+      <p>
+        Test 10 <span> div > p:last-of-type = weight 12<sup>*</sup></span>
+      </p>
     </div>
   </body>
 </html>

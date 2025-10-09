@@ -1,52 +1,48 @@
 body {
-  background-color: bisque; /*1*/
-  font-size: 20px;
+  background-color: bisque;
+  font-weight: bold;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
 }
-div > p {
-  /*2*/
+p {
   color: blue;
 }
-#test {
-  /*100*/
-  font-weight: 600;
-  background-color: burlywood;
+span {
+  color: rgb(195, 43, 201);
+  font-size: 22;
+  font-weight: 800;
+}
+div > p:last-of-type {
+  color: rgb(235, 12, 123);
+}
+.test8 {
+  color: rgb(11, 83, 59);
+}
+#test7 {
+  background-color: black;
+  display: inline-block;
+  color: white;
 }
 div > p:nth-child(2) {
-  /*12*/
-  color: rgb(40, 99, 151);
-}
-section p {
-  /*2*/
   color: brown;
 }
-ul + li {
-  /*2*/
-  background-color: black; /* Doesn't work*/
-  color: blue;
+
+div > p:nth-child(3) {
+  color: rgb(26, 177, 223) !important;
 }
-ul > li:last-child {
-  /*12*/
-  background-color: aqua;
+div {
+  background-color: rgb(202, 228, 228); /* weight = 1*/
 }
-ul > li:nth-child(2) {
-  /*12*/
-  background-color: rgb(230, 136, 14);
+p:nth-child(4) {
+  background-color: rgb(181, 241, 132);
+  color: rgb(246, 248, 248);
 }
-h1 + p {
-  /*2*/
-  color: rgb(161, 21, 173);
+p:nth-child(4) + p {
+  background-color: rgb(151, 209, 177);
+  color: rgb(246, 248, 248);
+  display: inline-block;
 }
-span ~ p {
-  /*2*/
-  color: red;
-}
-h1::after {
-  /*2*/
-  content: '★';
-  color: green;
-}
-h1::before {
-  /*2*/
-  content: '►';
-  color: orange;
+div > p:nth-child(5) + p {
+  background-color: rgb(170, 190, 201);
+  color: rgb(246, 248, 248);
 }
