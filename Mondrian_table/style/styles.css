@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: bisque;
+}
+.container {
+  width: 1280px;
+  margin: 20px auto;
+}
+.modrian_table {
+  table-layout: fixed;
+  width: 880px;
+  height: 640px;
+  border-collapse: collapse;
+  background-color: bisque;
+}
+td {
+  border: solid 1px;
+}
+.yellow {
+  background-color: yellow;
+}
+.white {
+  background-color: aliceblue;
+}
+.red {
+  background-color: red;
+}
