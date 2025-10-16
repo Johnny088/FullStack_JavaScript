@@ -28,6 +28,9 @@ td {
   border: solid 8px;
   padding: 0;
 }
+tr {
+  height: 40px;
+}
 .yellow {
   background-color: yellow;
 }
