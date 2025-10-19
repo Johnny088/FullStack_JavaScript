@@ -6,6 +6,7 @@ body {
 .container {
   width: 1280px;
   margin: 0 auto;
+  padding-left: 120px;
 }
 p {
   background-color: lightcoral;
@@ -57,4 +58,47 @@ span {
 }
 img {
   display: inline-block;
+}
+.nav_ul {
+  position: fixed;
+}
+
+.section2 > p {
+  background-color: bisque;
+}
+.list {
+  list-style: none;
+  position: relative;
+}
+.li_item {
+  position: absolute;
+  border: solid 2px black;
+  padding: 80px;
+}
+.li_item:hover {
+  z-index: 100;
+}
+.item1 {
+  top: 20px;
+  left: 400px;
+  background-color: brown;
+}
+.item2 {
+  top: 40px;
+  left: 350px;
+  background-color: blanchedalmond;
+}
+.item3 {
+  top: 80px;
+  left: 450px;
+  background-color: rgb(206, 37, 121);
+}
+.item4 {
+  top: 70px;
+  left: 400px;
+  background-color: rgb(209, 137, 28);
+}
+.sticky {
+  position: sticky;
+  top: 0;
 }
