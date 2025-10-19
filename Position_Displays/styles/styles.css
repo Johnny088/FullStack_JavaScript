@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(153, 177, 185);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+p {
+  background-color: lightcoral;
+}
+span {
+  background-color: bisque;
+  font-weight: 800;
+}
+.description {
+  font-size: 25px;
+  background-color: cyan;
+}
+.parametrized_div {
+  width: 200px;
+}
+.inline {
+  display: inline-block;
+}
+.inline_block {
+  display: inline-block;
+}
+.left {
+  float: left;
+  background-color: bisque;
+  width: 200px;
+  height: 200px;
+}
+.right {
+  float: right;
+  background-color: bisque;
+  width: 200px;
+  height: 200px;
+}
+.clear {
+  clear: both;
+}
+.overflow_div {
+  border: 12px solid rgb(6, 50, 121);
+  border-radius: 12px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.second {
+  overflow: scroll;
+}
+.third {
+  overflow: auto;
+}
+img {
+  display: inline-block;
+}

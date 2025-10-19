@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Overflow</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">div/span</a>
+          </li>
+          <li>
+            <a href="./reset.html">reset.css</a>
+          </li>
+          <li>
+            <a href="./normalize.html">normalise.css</a>
+          </li>
+          <li>
+            <a href="./display.html">dislpay options</a>
+          </li>
+          <li><a href="./float.html">float</a></li>
+          <li>
+            <a href="./overflow.html" title="You're already here">overflow</a>
+          </li>
+          <li>position</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <p>overflow is hidden, and our picture was cut</p>
+          <div class="overflow_div">
+            <img src="../images/Olympic.jpg" alt="test_picture" />
+          </div>
+          <p>
+            the next photo we can scroll because overflow's property is scroll
+          </p>
+          <div class="overflow_div second">
+            <img src="../images/Olympic.jpg" alt="test_picture" />
+          </div>
+          <p>this photo we can scroll as well but the property is auto</p>
+          <div class="overflow_div third">
+            <img src="../images/Olympic.jpg" alt="test_picture" />
+          </div>
+          <!-- <div class="overflow_div"></div> -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

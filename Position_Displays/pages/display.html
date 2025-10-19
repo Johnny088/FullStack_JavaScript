@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">div/span</a>
+          </li>
+          <li>
+            <a href="./reset.html">reset.css</a>
+          </li>
+          <li>
+            <a href="./normalize.html" title="You're already here"
+              >normalise.css</a
+            >
+          </li>
+          <li>
+            <a href="./display.html" title="You're already here"
+              >dislpay options</a
+            >
+          </li>
+          <li><a href="./float.html">float</a></li>
+          <li><a href="./overflow.html">overflow</a></li>
+          <li>position</li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <p class="description">some div with theirn own display properties</p>
+          <div class="parametrized_div">
+            <p>the first div width 100px</p>
+          </div>
+          <div class="parametrized_div">
+            <p>the second div width 100px</p>
+          </div>
+          <!-- --------------------------------------------- -->
+          <p class="description">inline div</p>
+          <!-- --------------------------------------------- -->
+          <div class="inline">
+            <p>the first div width 100px</p>
+          </div>
+          <div class="inline">
+            <p>the second div width 100px</p>
+          </div>
+          <div class="inline"><p>the third div</p></div>
+          <!-- --------------------------------------------- -->
+          <p class="description">inline_block div</p>
+          <!-- --------------------------------------------- -->
+          <div class="inline_block">
+            <p>the first div width 100px</p>
+          </div>
+          <div class="inline_block">
+            <p>the second div width 100px</p>
+          </div>
+          <div class="inline_block"><p>the third div</p></div>
+          <p class="description">
+            we can see nothing changed, but the main point is display: inline; -
+            is like a text, and display: inline-block; - is a box which we can
+            move where we want to.
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
