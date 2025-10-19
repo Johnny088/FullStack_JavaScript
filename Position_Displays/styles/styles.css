@@ -22,12 +22,7 @@ span {
 .parametrized_div {
   width: 200px;
 }
-.inline {
-  display: inline-block;
-}
-.inline_block {
-  display: inline-block;
-}
+
 .left {
   float: left;
   background-color: bisque;
@@ -101,4 +96,17 @@ img {
 .sticky {
   position: sticky;
   top: 0;
+}
+
+/* Updated */
+.inline {
+  display: inline;
+  background-color: blueviolet;
+  height: 400px; /* Doesn't work because of the inline property */
+}
+
+.inline_block {
+  display: inline-block;
+  background-color: blue;
+  height: 100px;
 }
