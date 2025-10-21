@@ -18,7 +18,6 @@ body {
 }
 .parametrized,
 .half_parametrized {
-  display: block;
   height: 140px;
   width: 240px;
   background-color: brown;
@@ -36,9 +35,6 @@ body {
   float: right;
   margin-left: 20px;
 }
-.center {
-  padding-left: 460px;
-}
 .title {
   text-align: center;
   padding-top: 40px;
@@ -47,11 +43,24 @@ a {
   text-decoration: none;
   color: rgb(83, 34, 129);
 }
+.center {
+  margin: 0 auto;
+}
 /* ---------------------------------------------------Flex---------------------------------------------- */
 .wrapper_flex {
   margin-bottom: 30px;
   background-color: rgb(43, 206, 143);
   padding: 40px;
+}
+.flex_square {
+  height: 140px;
+  width: 240px;
+  background-color: brown;
+}
+.flex_rectangle {
+  height: 62px;
+  width: 240px;
+  background-color: brown;
 }
 .flex_between {
   display: flex;
@@ -70,7 +79,7 @@ a {
 .flex_column {
   display: flex;
   flex-direction: column;
-  /* gap: 16px; */
+  gap: 16px;
 }
 .flex_center {
   display: flex;
