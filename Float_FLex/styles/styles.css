@@ -1,0 +1,79 @@
+body {
+  background-color: lightcyan;
+  font-size: 24px;
+}
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.wrapper {
+  margin-bottom: 30px;
+  background-color: rgb(43, 206, 143);
+  padding: 40px;
+}
+.wrapper::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.parametrized,
+.half_parametrized {
+  display: block;
+  height: 140px;
+  width: 240px;
+  background-color: brown;
+}
+.half_parametrized {
+  height: 62px;
+  width: 240px;
+  margin-bottom: 16px;
+}
+.left {
+  float: left;
+  margin-right: 20px;
+}
+.right {
+  float: right;
+  margin-left: 20px;
+}
+.center {
+  padding-left: 460px;
+}
+.title {
+  text-align: center;
+  padding-top: 40px;
+}
+a {
+  text-decoration: none;
+  color: rgb(83, 34, 129);
+}
+/* ---------------------------------------------------Flex---------------------------------------------- */
+.wrapper_flex {
+  margin-bottom: 30px;
+  background-color: rgb(43, 206, 143);
+  padding: 40px;
+}
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+}
+.flex_right {
+  display: flex;
+  justify-content: right;
+  gap: 20px;
+}
+.flex_left {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+.flex_column {
+  display: flex;
+  flex-direction: column;
+  /* gap: 16px; */
+}
+.flex_center {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
