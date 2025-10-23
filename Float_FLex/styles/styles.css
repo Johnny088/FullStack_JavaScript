@@ -25,15 +25,21 @@ body {
 .half_parametrized {
   height: 62px;
   width: 240px;
+}
+.bottom_float_margin {
   margin-bottom: 16px;
+}
+.right_float_margin {
+  margin-right: 20px;
+}
+.left_float_margin {
+  margin-left: 20px;
 }
 .left {
   float: left;
-  margin-right: 20px;
 }
 .right {
   float: right;
-  margin-left: 20px;
 }
 .title {
   text-align: center;
@@ -44,6 +50,7 @@ a {
   color: rgb(83, 34, 129);
 }
 .center {
+  width: 500px;
   margin: 0 auto;
 }
 /* ---------------------------------------------------Flex---------------------------------------------- */

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: bisque;
+  background-color: #212529;
 }
 .container {
   width: 1280px;
@@ -14,4 +14,20 @@ body {
 .flex-container {
   display: flex;
   justify-content: space-between;
+}
+.button {
+  padding: 10px 40px;
+  font-size: 25px;
+  background-color: #00ffff;
+  color: #0a0a0a;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.button2 {
+  padding: 10px 40px;
+  font-size: 25px;
+  background-color: #cfee21;
+  color: #0a0a0a;
+  border-radius: 20px;
+  font-weight: 600;
 }
