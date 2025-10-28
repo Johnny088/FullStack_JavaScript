@@ -111,6 +111,14 @@ header .container {
 }
 
 /* navigation section */
+.navigation_wrap .container {
+  padding-top: 100px;
+}
+
+.navigation__wrap__items {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* describtion section */
 .description .container {
