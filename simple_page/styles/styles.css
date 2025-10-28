@@ -256,7 +256,6 @@ header .container {
   background-color: #f8f8f8;
   border-radius: 16px;
   text-align: center;
-  z-index: 5;
 }
 .plan__price__type {
   font-size: 18px;
@@ -264,15 +263,15 @@ header .container {
   margin-bottom: 22px;
   color: #696871;
 }
-.plan_price_title {
+.plan_price__title {
   font-weight: 700;
   font-size: 28px;
   letter-spacing: -1.03px;
   margin-bottom: 54px;
   color: #1d293f;
 }
-.plan__price_description {
-  font-family: Mulish;
+.plan__price__description {
+  font-family: 'Mulish';
   font-size: 17px;
   letter-spacing: -0.53px;
   margin-bottom: 54px;
@@ -293,5 +292,14 @@ header .container {
 
 .plan__price__item:hover {
   background-color: #ff7143;
+  transform: scale(1.1);
+}
+.plan__price__item:hover .plan__price__type,
+.plan__price__item:hover .plan_price__title,
+.plan__price__item:hover .plan__price__description,
+.plan__price__item:hover .plan__price__btn {
   color: #fff;
+}
+.plan__price__item:hover .plan__price__btn {
+  background-color: #9f3919;
 }
