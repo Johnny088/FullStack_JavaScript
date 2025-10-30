@@ -419,6 +419,9 @@ header .container {
   .plan__price__item {
     width: 280px;
   }
+  .plan__price__btn {
+    width: 260px;
+  }
 }
 
 @media (min-width: 1252px) {
