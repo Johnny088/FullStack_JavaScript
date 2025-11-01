@@ -321,12 +321,15 @@ header .container {
     font-size: 40px;
   }
   .btn__wrap {
-    flex-wrap: wrap;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: center;
+    margin-bottom: 40px;
   }
   .hero__btn {
     margin-bottom: 20px;
+    margin-right: 0;
   }
   .hero__img__man {
     width: 300px;
@@ -398,9 +401,9 @@ header .container {
     width: 280px;
     margin-bottom: 30px;
   }
-  .plan_btn_wrap {
+  /* .plan_btn_wrap {
     margin-bottom: ;
-  }
+  } */
   .plan__duration__btn {
     width: 100px;
   }
@@ -494,7 +497,7 @@ header .container {
   }
   .scale .container {
     justify-content: space-between;
-    margin: 0;
+    margin: 0 auto;
   }
   .scale__title {
     font-size: 30px;
