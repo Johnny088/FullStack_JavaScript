@@ -441,6 +441,7 @@ header .container {
     width: 100px;
   }
   .plan__price {
+    margin: 0 auto;
     flex-direction: column;
     gap: 40px;
     width: 240px;
