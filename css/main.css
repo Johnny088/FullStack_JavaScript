@@ -10,10 +10,26 @@ ul {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   display: block;
 }
 
 button {
   cursor: pointer;
+}
+
+.contaner {
+  width: 1146px;
+  margin: 0 auto;
+}
+
+.header .header__container {
+  width: 1070px;
+  margin-left: calc((width - 1146px) / 2);
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */

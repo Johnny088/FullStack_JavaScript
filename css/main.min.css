@@ -1,1 +1,1 @@
-h1,h2,h3,p{margin:0}ul{padding:0;margin:0}img{display:block}button{cursor:pointer}/*# sourceMappingURL=main.min.css.map */
+h1,h2,h3,p{margin:0}ul{padding:0;margin:0}a{text-decoration:none}img{display:block}button{cursor:pointer}.contaner{width:1146px;margin:0 auto}.header .header__container{width:1070px;margin-left:calc((width - 1146px)/2);display:flex;justify-content:space-between}/*# sourceMappingURL=main.min.css.map */

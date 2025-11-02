@@ -8,9 +8,16 @@ ul {
   padding: 0;
   margin: 0;
 }
+a {
+  text-decoration: none;
+}
 img {
   display: block;
 }
 button {
   cursor: pointer;
+}
+.contaner {
+  width: 1146px;
+  margin: 0 auto;
 }
