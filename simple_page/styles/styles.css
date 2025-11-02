@@ -594,6 +594,12 @@ header .container {
   .hero {
     padding-top: 100px;
   }
+  .hero__title {
+    width: 462px;
+    font-weight: 700;
+    font-size: 80px;
+    letter-spacing: -2.5px;
+  }
   .hero .container {
     justify-content: space-between;
     align-items: center;
@@ -642,7 +648,9 @@ header .container {
   }
 
   .description__title {
+    font-weight: 700;
     font-size: 50px;
+    letter-spacing: -1.56px;
   }
   .description__item {
     font-size: 20px;
@@ -669,8 +677,9 @@ header .container {
   }
 
   .scale__title {
+    font-weight: 700;
     font-size: 50px;
-    margin-bottom: 30px;
+    letter-spacing: -1.56px;
   }
   .scale__item {
     font-family: 'Mulish';
@@ -734,7 +743,9 @@ header .container {
 
   .plan__duration__title {
     width: 524px;
+    font-weight: 700;
     font-size: 60px;
+    letter-spacing: -1.88px;
   }
   .plan_btn_wrap {
     display: flex;

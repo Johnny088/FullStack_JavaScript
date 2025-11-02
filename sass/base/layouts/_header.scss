@@ -1,6 +1,18 @@
-.header .header__container {
+.header .container {
   width: 1070px;
-  margin-left: calc((width - 1146px) / 2);
+  margin-left: calc((100% - 1146px) / 2);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
+.navigation__list {
+  display: flex;
+  gap: 48px;
+  &__item {
+    display: block;
+    padding: 44px 0;
+  }
+}
+// font-weight: 700;
+// font-size: 15px;
+// letter-spacing: -0.47px;
