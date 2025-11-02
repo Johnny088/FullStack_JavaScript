@@ -43,11 +43,24 @@ header .container {
 .navigation__item {
   font-weight: 700;
   font-size: 15px;
-  color: #19191b;
   display: block;
-}
-.grey {
   color: #696871;
+  position: relative;
+}
+.navigation__item::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  height: 2px;
+}
+.navigation__item:hover {
+  color: #19191b;
+}
+.navigation__item:hover::after {
+  width: 100%;
+  background-color: #5454d4;
 }
 
 .header__btn {
@@ -193,6 +206,7 @@ header .container {
   font-family: 'Mulish';
   font-size: 16px;
   letter-spacing: -0.5px;
+  color: #696871;
 }
 
 /* ---------- plan section --------------*/
@@ -439,7 +453,7 @@ header .container {
     padding: 24px 0;
   }
   .header__btn {
-    padding: 10px;
+    padding: 10px 20px;
   }
 
   /*-------------------------- hero container --------------------------------------*/
@@ -554,12 +568,14 @@ header .container {
 
 /* --------------------------------------------Desctop--------------------------- */
 /* ------------header ------------------ */
-@media (min-width: 1252px) {
+@media (min-width: 1146px) {
   .container {
-    width: 1252px;
+    width: 1146px;
   }
 
   .header .container {
+    width: 1070px;
+    margin-left: calc((100% - 1146px) / 2);
     justify-content: space-between;
     align-items: center;
   }
@@ -570,6 +586,9 @@ header .container {
 
   .navigation__item {
     padding: 44px 0;
+  }
+  .header__btn {
+    padding: 20px 60px;
   }
   /* -------------------------------hero section------------------------ */
   .hero {
